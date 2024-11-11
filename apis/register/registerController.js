@@ -1,6 +1,6 @@
 // const user=require("../user/userModel")
 const register = require('./registerModel');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const saltRounds = 10;
 exports.addperson = (req, res) => {

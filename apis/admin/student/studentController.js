@@ -1,6 +1,6 @@
 const student = require('./studentModel')
 const UserModel = require('../../user/userModel')
-const bcrypt = require('bcrypt')
+const bcrypt = require('bcryptjs')
 const saltRounds = 10
 const salt = bcrypt.genSaltSync(saltRounds)
 
